@@ -16,13 +16,13 @@
                         </ul>
                     @endif
                     <div class="form-group row">
-                        <label class="col-md-2" for="title">氏名</label>
+                        <label class="col-md-2" for="body">氏名</label>
                         <div class="col-md-10">
                             <input type="text" class="form-control" name="name" value="{{ old('name') }}">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-2" for="title">性別</label>
+                        <label class="col-md-2" for="body">性別</label>
                         <div class="col-md-10">
                             <input type="text" class="form-control" name="gender" value="{{ old('gender') }}">
                         </div>
