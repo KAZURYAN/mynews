@@ -8,6 +8,7 @@
                 <div class="headline col-md-10 mx-auto">
                     <div class="row">
                         <div class="col-md-6">
+                            <p>追加デプロイの実施@20190630</p>
                             <div class="caption mx-auto">
                                 <div class="image">
                                     @if ($headline->image_path)
@@ -20,7 +21,6 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <p>追加デプロイの実施@20190630</p>
                             <p class="body mx-auto">{{ str_limit($headline->body, 650) }}</p>
                         </div>
                     </div>
