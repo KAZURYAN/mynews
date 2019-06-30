@@ -1,7 +1,6 @@
 @extends('layouts.front')
 
 @section('content')
-    <p>追加デプロイの実施@20190630</p>
     <div class="container">
         <hr color="#c0c0c0">
         @if (!is_null($headline))
@@ -21,6 +20,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
+                            <p>追加デプロイの実施@20190630</p>
                             <p class="body mx-auto">{{ str_limit($headline->body, 650) }}</p>
                         </div>
                     </div>
