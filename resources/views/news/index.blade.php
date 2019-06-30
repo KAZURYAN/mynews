@@ -3,12 +3,13 @@
 @section('content')
     <div class="container">
         <hr color="#c0c0c0">
+        <p>追加デプロイの実施@20190630</p>
         @if (!is_null($headline))
             <div class="row">
                 <div class="headline col-md-10 mx-auto">
                     <div class="row">
                         <div class="col-md-6">
-                            <p>追加デプロイの実施@20190630</p>
+                            
                             <div class="caption mx-auto">
                                 <div class="image">
                                     @if ($headline->image_path)
