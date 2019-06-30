@@ -54,8 +54,8 @@
                     </div>
                     <hr color="#c0c0c0">
                 @endforeach
+            <p>追加デプロイの実施@20190630</p>    
             </div>
-            <p>追加デプロイの実施@20190630</p>
         </div>
     </div>
     </div>
